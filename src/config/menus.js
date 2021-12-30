@@ -1,9 +1,9 @@
 export default [{
-    name: '分类管理',
+    name: '类别管理',
     icon: 'android-share-alt',
     routerName: "Category"
 }, {
-    name: '出版机构',
+    name: '机构管理',
     icon: 'share',
     routerName: "Press"
 }, {

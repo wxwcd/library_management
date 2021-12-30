@@ -2,7 +2,7 @@
     <Modal width="500" v-model="modal.show" :title="this.params._id?'编辑':'新增'" @on-ok="modalOk" @on-cancel="cancel">
         <div class="modal-form">
             <Form ref="form" :model="params" :rules="rules" :labelWidth="80">
-                <FormItem label="类别" prop="name">
+                <FormItem label="名称" prop="name">
                     <Input v-model="params.name" placeholder="请输入出版社名称"></Input>
                 </FormItem>
             </Form>

@@ -7,7 +7,7 @@ export default function () {
             align: "center"
         },
         {
-            title: "书名",
+            title: "书籍名称",
             key: "name",
             align: "center",
         },
@@ -24,7 +24,7 @@ export default function () {
             }
         },
         {
-            title: "类别",
+            title: "书籍类别",
             key: "category",
             align: "center",
             render: (h, { row }) => {

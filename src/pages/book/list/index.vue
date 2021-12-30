@@ -14,7 +14,7 @@
                     </FormItem>
                 </Col>
                 <Col :lg="6" :sm="8" :xs="24">
-                    <FormItem label="入馆日期" prop="createdAt">
+                    <FormItem label="上架日期" prop="createdAt">
                         <DatePicker v-model="params.createdAt" type="date" placeholder="搜索日期"></DatePicker>
                     </FormItem>
                 </Col>
