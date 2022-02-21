@@ -32,7 +32,6 @@ export default {
   name: "Ranking",
   data() {
     return {
-      dataSet: null,
       loading1: false,
       chart1: null,
       data: [],
@@ -40,7 +39,6 @@ export default {
     };
   },
   created() {
-    this.dataSet = new DataSet();
     this.readingAmount();
   },
   methods: {
@@ -48,7 +46,7 @@ export default {
       let { data } = await Book.readingAmount();
       this.data = data;
       this.$nextTick(() => {
-        this.chart1 = readingInit({ dataset: this.dataSet, data }, this);
+        this.chart1 = readingInit(data);
       });
     }
   }

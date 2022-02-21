@@ -4,7 +4,7 @@
         <SearchBox @search="search()" @reset="reset" :params="params">
             <template slot="body" slot-scope="props">
                 <Col :lg="6" :sm="8" :xs="24">
-                    <FormItem label="名称" prop="name">
+                    <FormItem label="机构名称" prop="name">
                         <Input v-model="params.name" icon="search" placeholder="搜索名称"></Input>
                     </FormItem>
                 </Col>

@@ -18,16 +18,16 @@
                 <FormItem label="作者" prop="author">
                     <Input v-model="params.author" placeholder="请输入作者"></Input>
                 </FormItem>
-                <FormItem label="状态" prop="borrowStatus">
-                    <RadioGroup v-model="params.borrowStatus">
-                        <Radio label="0">
-                            <span>未借出</span>
-                        </Radio>
-                        <Radio label="1">
-                            <span>已借出</span>
-                        </Radio>
-                    </RadioGroup>
-                </FormItem>
+<!--                <FormItem label="状态" prop="borrowStatus">-->
+<!--                    <RadioGroup v-model="params.borrowStatus">-->
+<!--                        <Radio label="0">-->
+<!--                            <span>未借出</span>-->
+<!--                        </Radio>-->
+<!--                        <Radio label="1">-->
+<!--                            <span>已借出</span>-->
+<!--                        </Radio>-->
+<!--                    </RadioGroup>-->
+<!--                </FormItem>-->
                 <FormItem label="简介" prop="desc">
                     <Input v-model="params.desc" type="textarea" :rows="6" placeholder="简介"></Input>
                 </FormItem>

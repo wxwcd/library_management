@@ -34,7 +34,8 @@ module.exports = {
     "vuex":"Vuex",
     "vue-router":"VueRouter",
     "velocity-animate":"Velocity",
-    "axios":"axios"
+    "axios":"axios",
+    "@antv/g2":"G2"
   },
   module: {
     rules: [

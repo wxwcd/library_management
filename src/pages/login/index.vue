@@ -1,10 +1,8 @@
 <template>
     <div id="login">
-
-      <div class="login-mask"></div>
-      <div style="background-color: black;width:400px;height:300px" ></div>
-
-      <div class="form-wrap">
+      <div id="login_img">
+        <img src="../../assets/login.png" id="img_"  :class="img_class" @click="click_img" alt="">
+      <div :class="login_class" v-if="state" >
             <Form ref="forms" :model="forms" :rules="rules">
                 <FormItem prop="userName">
                     <Input v-model.trim="forms.userName" size="large" placeholder="请输入账号/邮箱"></Input>
@@ -28,6 +26,7 @@
                 </FormItem>
             </Form>
         </div>
+    </div>
     </div>
 </template>
 

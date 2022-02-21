@@ -1,4 +1,4 @@
-import router from "@/router";
+// import router from "@/router";
 export default function () {
     return [
         {
@@ -13,7 +13,7 @@ export default function () {
             align: "center"
         },
         {
-            title: "名称",
+            title: "类别名称",
             key: "name",
             align: "center",
         },

@@ -1,12 +1,12 @@
-import axios from '@/utils/request'
-import { LOGOUT, MY_MENU } from '@/utils/interface'
-import QS from 'querystring'
+// import axios from '@/utils/request'
+// import { LOGOUT, MY_MENU } from '@/utils/interface'
+// import QS from 'querystring'
 import $router from '@/router/index'
 import utils from '@/utils/utils'
 import $store from '@/store/index'
 import menuArr from '@/config/menus'
 import { Homes, title } from '@/config/config.default.js'
-import { User } from "@/service";
+// import { User } from "@/service";
 
 let { storage, is, attrData } = utils
 //初始化缓存
@@ -190,46 +190,46 @@ export default {
  */
 function getThemeList() {
     return [
-        // {
-        //     name: "white-cyan",
-        //     element: "rgb(0,162,174)"
-        // },
+        {
+            name: "white-cyan",
+            element: "rgb(0,162,174)"
+        },
         {
             name: "white-blue",
             element: "rgb(16,142,233)"
         },
-        // {
-        //     name: "white-green",
-        //     element: "rgb(0,168,84)"
-        // },
-        // {
-        //     name: "white-red",
-        //     element: "rgb(240,65,52)"
-        // },
+        {
+            name: "white-green",
+            element: "rgb(0,168,84)"
+        },
+        {
+            name: "white-red",
+            element: "rgb(240,65,52)"
+        },
         {
             name: "white-black",
             element: "rgb(55,61,65)"
         },
-        // //
-        // {
-        //     name: 'black-cyan',
-        //     element: 'rgb(0, 162, 174)'
-        // },
-        // {
-        //     name: 'black-blue',
-        //     element: 'rgb(16, 142, 233)'
-        // },
-        // {
-        //     name: 'black-green',
-        //     element: 'rgb(0, 168, 84)'
-        // },
-        // {
-        //     name: 'black-red',
-        //     element: 'rgb(240, 65, 52)'
-        // },
-        // {
-        //     name: 'black-black',
-        //     element: 'rgb(55, 61, 65)'
-        // }
+        //
+        {
+            name: 'black-cyan',
+            element: 'rgb(0, 162, 174)'
+        },
+        {
+            name: 'black-blue',
+            element: 'rgb(16, 142, 233)'
+        },
+        {
+            name: 'black-green',
+            element: 'rgb(0, 168, 84)'
+        },
+        {
+            name: 'black-red',
+            element: 'rgb(240, 65, 52)'
+        },
+        {
+            name: 'black-black',
+            element: 'rgb(55, 61, 65)'
+        }
     ]
 }

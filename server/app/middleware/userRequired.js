@@ -1,5 +1,5 @@
 "use strict";
-module.exports = (options) => {
+module.exports = () => {
     return async function (ctx, next) {
         const { user } = ctx;
         if (!user) {

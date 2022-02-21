@@ -1,4 +1,4 @@
-//书类别
+
 module.exports = (app) => {
     const mongoose = app.mongoose;
     return mongoose.model('Press', new mongoose.Schema({

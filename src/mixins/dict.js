@@ -1,4 +1,4 @@
-import { Book, Category, Press } from "@/service";
+import {  Category, Press } from "@/service";
 export default {
     methods: {
         async getCategoryAll() {
@@ -9,5 +9,6 @@ export default {
             let { data } = await Press.getAll();;
             this.pressList = data.rows;
         },
+
     }
 }

@@ -5,6 +5,9 @@ export default {
     name: "Login",
     data() {
         return {
+            state:false,
+            login_class:undefined,
+            img_class:undefined,
             loading: false,
             remember: true,
             code: "/api/login/checkcode",
@@ -39,6 +42,16 @@ export default {
         resetCode() {
             this.code = `${this.code}?t=${+new Date()}`;
             this.forms.img = "";
+        },
+        click_img() {
+          this.state = !this.state
+          if(this.state){
+            this.img_class = 'img_class'
+            this.login_class = 'form-wrap login_class'
+          }
+          else {
+            this.img_class = 'hide'
+          }
         },
         async submit() {
             let result = await this.$refs.forms.validate();

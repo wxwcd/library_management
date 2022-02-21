@@ -6,7 +6,7 @@ import Layout from '@/components/Layout/Layout'
 import Block from '@/components/Layout/Block'
 import AnimateNumber from './components/AnimateNumber.vue'
 import FullScreen from '@/components/fullScreen'
-import Upload from '@/components/Upload'
+// import Upload from '@/components/Upload'
 import SearchBox from '@/components/Layout/SearchBox'
 Vue.use(iView);
 /**自定义组件 */

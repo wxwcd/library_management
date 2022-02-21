@@ -19,7 +19,7 @@ export default [{
     icon: 'android-exit',
     routerName: "Borrow"
 }, {
-    name: '借还统计',
+    name: '借阅统计',
     icon: 'ios-book-outline',
     routerName: "Ranking"
 }].concat([{

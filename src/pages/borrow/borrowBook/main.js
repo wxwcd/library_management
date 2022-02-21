@@ -1,4 +1,4 @@
-import { Book, Category, Press, User } from "@/service";
+import { Book, User } from "@/service";
 import dict from '@/mixins/dict'
 export default {
     name: "BorrowBook",
@@ -86,7 +86,8 @@ export default {
         },
         //借书
         async borrow() {
-            let { data } = await Book.borrow(this.$QS.stringify({
+            // let { data } =
+              await Book.borrow(this.$QS.stringify({
                 _id: this.params._id,
                 borrowStatus: 1,
                 userId:this.params.userId
@@ -94,7 +95,8 @@ export default {
         },
         //还书
         async book() {
-            let { data } = await Book.borrow(this.$QS.stringify({
+            // let { data } =
+              await Book.borrow(this.$QS.stringify({
                 _id: this.params._id,
                 borrowStatus: 0,
                 userId:this.params.userId

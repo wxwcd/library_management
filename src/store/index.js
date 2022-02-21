@@ -1,4 +1,4 @@
-import Vue from 'vue'
+// import Vue from 'vue'
 import Vuex from 'vuex'
 //全局模块
 import cache from '@/store/modules/cache'//缓存

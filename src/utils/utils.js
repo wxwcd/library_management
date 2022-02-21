@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import storage from '@/utils/storage.js'
-import $router from '@/router/index'
+// import $router from '@/router/index'
 import QS from 'querystring'
 let Message = Vue.prototype.$Message
 
@@ -55,9 +55,9 @@ function isArray(arr) {
 }
 /**
  * @description 初始化属性值
- * @param {String} name 属性名 
+ * @param {String} name 属性名
  * @param {String} type 类型
- * @param {*} default 默认值 
+ * @param {*} default 默认值
  * */
 function attrData(name = '', type = 'String', defaults = '') {
     let value = storage.getLocal(name);
@@ -149,9 +149,9 @@ function findTitle($store, name) {
 }
 /**
  * @description 去抖
- * @param {Function} fn 
+ * @param {Function} fn
  * @param {Number} delay
- * @return {Function} 
+ * @return {Function}
  */
 function debounce(fn, delay) {
     let t = null;
@@ -165,10 +165,10 @@ function debounce(fn, delay) {
 }
 /**
  * @description 去抖
- * @param {Function} fn 
- * @param {Number} delay 
- * @param {String} msg  
- * @return {Function} 
+ * @param {Function} fn
+ * @param {Number} delay
+ * @param {String} msg
+ * @return {Function}
  */
 function throttle(fn, delay) {
     let start = 0;

@@ -1,4 +1,4 @@
-import { Book, Category, Press } from "@/service";
+import { Book } from "@/service";
 import dict from '@/mixins/dict'
 export default {
     mixins: [dict],

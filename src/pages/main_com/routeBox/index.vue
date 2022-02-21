@@ -2,7 +2,7 @@
     <div ref="scrollCon" @DOMMouseScroll="handlescroll" @mousewheel="handlescroll" class="route-box">
         <div class="route-close">
             <Dropdown trigger="click" transfer @on-click="handleTagsOption">
-                <Button size="small" type="primary">
+                <Button size="small" type="primary" style="width: 100%">
                     <span>标签操作</span>
                     <Icon type="arrow-down-b"></Icon>
                 </Button>

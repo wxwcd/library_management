@@ -2,7 +2,6 @@
 module.exports = (app) => {
     const { router, controller, middleware } = app;
     const { category, login, users, press, book } = controller;
-    const userRequired = middleware.userRequired();
     const userAdmin = middleware.userAdmin();
 
     router.post("/api/book/create", userAdmin, book.create);

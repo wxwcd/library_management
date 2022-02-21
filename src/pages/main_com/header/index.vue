@@ -1,11 +1,12 @@
 <template>
     <div class="header">
         <!-- logo -->
-        <div class="logo" :style="{width:hideMenuText?'60px':'200px'}">
-            <a href="#/home">
+        <div class="logo" :style="{width:hideMenuText?'60px':'150px'}">
+<!--            <a href="#/home">-->
                 <p v-if="!hideMenuText" class="expanded">{{loggTitle}}</p>
                 <p v-else>{{loggTitleMin}}</p>
-            </a>
+                <img src="" alt="">
+<!--            </a>-->
         </div>
         <div class="top-nav-wrap">
             <!-- 收缩菜单 -->
@@ -65,7 +66,7 @@
 </template>
 <script>
 import { mapState } from "vuex";
-import { loggTitleMin, loggTitle } from "@/config/config.default.js";
+// import { loggTitleMin, loggTitle } from "@/config/config.default.js";
 import { logoText, logoTextMin } from "../../../../static/config.json";
 export default {
   name: "header",

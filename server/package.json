@@ -1,10 +1,11 @@
 {
-  "name": "tsegg",
+  "name": "library",
   "version": "1.0.0",
   "description": "",
   "private": true,
   "dependencies": {
     "async-validator": "^1.8.2",
+    "axios": "^0.24.0",
     "captchapng": "0.0.1",
     "egg": "^2.2.1",
     "egg-mongoose": "^2.2.0",
@@ -13,7 +14,13 @@
     "egg-session": "^3.1.0",
     "node-uuid": "^1.4.8",
     "passport-local": "^1.0.0",
-    "uuid": "^3.2.1"
+    "uuid": "^3.2.1",
+    "gulp": "^4.0.2",
+    "gulp-jest": "^4.0.4",
+    "jest": "^26.6.3",
+    "jest-html-reporters": "^2.1.6",
+    "mockjs": "^1.1.0",
+    "moment": "^2.29.1"
   },
   "devDependencies": {
     "autod": "^3.0.1",
@@ -38,8 +45,7 @@
     "cov": "egg-bin cov",
     "lint": "eslint .",
     "ci": "npm run lint && npm run cov",
-    "autod": "autod",
-    "tsc:w": "tsc -p tsconfig.json -w"
+    "autod": "autod"
   },
   "ci": {
     "version": "8"

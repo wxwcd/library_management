@@ -38,28 +38,4 @@ module.exports = (app) => {
             message: "用户名或密码不正确"
         }
     });
-    // app.passport.deserializeUser(async (ctx, user) => {
-    //     console.log(user)
-    //     console.log('烦序列号')
-    //     return user
-    //     // if (user) {
-    //     //     if (!auth_token) {
-    //     //         return user;
-    //     //     }
-
-    //     //     const auth = auth_token.split('$$$$');
-    //     //     const user_id = auth[0];
-    //     //     user = await ctx.service.user.getUserById(user_id);
-
-    //     //     if (!user) {
-    //     //         return user;
-    //     //     }
-
-    //     //     if (ctx.app.config.admins.hasOwnProperty(user.loginname)) {
-    //     //         user.is_admin = true;
-    //     //     }
-    //     // }
-
-    //     // return user;
-    // });
 }

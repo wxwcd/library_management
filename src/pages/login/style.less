@@ -1,9 +1,9 @@
+
 #login {
-    height: 100%;
-    .login-mask {
-      height: 100%;
-      background-color: white;
-    }
+  height: 100%;
+  width: 100%;
+  display: flex;
+  animation: show 3s;
     .form-sub {
       .icon {
         vertical-align: middle;
@@ -26,15 +26,12 @@
         padding-bottom: 15px;
         font-size: 33px;
       }
-      width: 380px;
+      width: 80%;
       background-color: #fff;
       padding: 15px 30px;
-      border-radius: 4px;
-      position: absolute;
-      left: 50%;
-      top: 50%;
+      margin-top:16%;
+      margin-left: 49%;
       transform: translate(-50%, -50%);
-      box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.4);
     }
     .form-margin {
       margin-bottom: 15px;
@@ -57,3 +54,59 @@
       }
     }
   }
+
+
+@keyframes show {
+  from {
+    height: 10%;
+    width: 10%;
+    margin-left: -15%;
+    margin-top: -15%;
+
+  }
+  to {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+#login_img{
+  #img_{
+    height: 100%;
+    width: 100%;
+  }
+  height:55%;
+  width: 45%;
+  margin-top:4%;
+  margin-left: 28%;
+
+}
+@keyframes move {
+  from {
+    margin-top:0%;
+
+  }
+  to {
+    margin-top:-15%;
+  }
+}
+.img_class{
+  animation: move 2s;
+  margin-top:-15%;
+}
+.defalut_class{
+  visibility: hidden;
+}
+@keyframes hide {
+  from {
+    margin-top:-15%;
+
+  }
+  to {
+    margin-top:0%;
+  }
+}
+.hide{
+  animation: hide 2s;
+  margin-top:0%;
+}
