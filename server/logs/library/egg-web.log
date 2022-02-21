@@ -1,0 +1,94 @@
+2022-02-07 18:00:19,468 INFO 8784 [egg:logger] init all loggers with options: {"dir":"D:\\workspace\\webstorm\\library_management\\server\\logs\\library","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"library-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2022-02-07 18:00:19,492 INFO 8784 [egg-multipart] stream mode enable
+2022-02-07 18:00:19,700 INFO 8784 [egg-mongoose] connecting mongodb://127.0.0.1:27017/book
+2022-02-07 18:00:19,777 INFO 8784 [egg-static] starting static serve /public/ -> D:\workspace\webstorm\library_management\server\app\public
+2022-02-07 18:00:19,779 INFO 8784 [egg-security] use methodnoallow middleware
+2022-02-07 18:00:19,779 INFO 8784 [egg-security] use noopen middleware
+2022-02-07 18:00:19,780 INFO 8784 [egg-security] use nosniff middleware
+2022-02-07 18:00:19,780 INFO 8784 [egg-security] use xssProtection middleware
+2022-02-07 18:00:19,781 INFO 8784 [egg-security] use xframe middleware
+2022-02-07 18:00:19,781 INFO 8784 [egg-security] use dta middleware
+2022-02-07 18:00:19,781 INFO 8784 [egg-security] compose 6 middlewares into one security middleware
+2022-02-07 18:00:19,791 INFO 8784 [egg:core] dump config after load, 4ms
+2022-02-07 18:00:19,794 INFO 8784 [egg-mongoose] starting...
+2022-02-07 18:00:19,815 INFO 8784 [egg-mongoose] mongodb://127.0.0.1:27017/book connected successfully
+2022-02-07 18:00:19,816 INFO 8784 [egg-mongoose] instance[0] start successfully
+2022-02-07 18:00:19,818 INFO 8784 [egg-watcher:application] watcher start success
+2022-02-07 18:00:19,826 INFO 8784 [egg:core] dump config after ready, 5ms
+2022-02-07 18:11:12,199 INFO 13240 [egg:logger] init all loggers with options: {"dir":"D:\\workspace\\webstorm\\library_management\\server\\logs\\library","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"library-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2022-02-07 18:11:12,227 INFO 13240 [egg-multipart] stream mode enable
+2022-02-07 18:11:15,284 INFO 13240 [egg-mongoose] connecting mongodb://127.0.0.1:27017/book
+2022-02-07 18:11:16,443 INFO 13240 [egg-static] starting static serve /public/ -> D:\workspace\webstorm\library_management\server\app\public
+2022-02-07 18:11:16,455 INFO 13240 [egg-security] use methodnoallow middleware
+2022-02-07 18:11:16,464 INFO 13240 [egg-security] use noopen middleware
+2022-02-07 18:11:16,474 INFO 13240 [egg-security] use nosniff middleware
+2022-02-07 18:11:16,484 INFO 13240 [egg-security] use xssProtection middleware
+2022-02-07 18:11:16,498 INFO 13240 [egg-security] use xframe middleware
+2022-02-07 18:11:16,508 INFO 13240 [egg-security] use dta middleware
+2022-02-07 18:11:16,508 INFO 13240 [egg-security] compose 6 middlewares into one security middleware
+2022-02-07 18:11:16,578 INFO 13240 [egg:core] dump config after load, 4ms
+2022-02-07 18:11:16,581 INFO 13240 [egg-mongoose] starting...
+2022-02-07 18:11:16,654 INFO 13240 [egg-mongoose] mongodb://127.0.0.1:27017/book connected successfully
+2022-02-07 18:11:16,655 INFO 13240 [egg-mongoose] instance[0] start successfully
+2022-02-07 18:11:16,658 INFO 13240 [egg-watcher:application] watcher start success
+2022-02-07 18:11:16,677 INFO 13240 [egg:core] dump config after ready, 7ms
+2022-02-08 10:25:05,040 INFO 17328 [egg:logger] init all loggers with options: {"dir":"D:\\workspace\\webstorm\\library_management\\server\\logs\\library","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"library-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2022-02-08 10:25:05,071 INFO 17328 [egg-multipart] stream mode enable
+2022-02-08 10:25:08,368 INFO 17328 [egg-mongoose] connecting mongodb://127.0.0.1:27017/book
+2022-02-08 10:25:09,395 INFO 17328 [egg-static] starting static serve /public/ -> D:\workspace\webstorm\library_management\server\app\public
+2022-02-08 10:25:09,405 INFO 17328 [egg-security] use methodnoallow middleware
+2022-02-08 10:25:09,414 INFO 17328 [egg-security] use noopen middleware
+2022-02-08 10:25:09,422 INFO 17328 [egg-security] use nosniff middleware
+2022-02-08 10:25:09,430 INFO 17328 [egg-security] use xssProtection middleware
+2022-02-08 10:25:09,437 INFO 17328 [egg-security] use xframe middleware
+2022-02-08 10:25:09,445 INFO 17328 [egg-security] use dta middleware
+2022-02-08 10:25:09,445 INFO 17328 [egg-security] compose 6 middlewares into one security middleware
+2022-02-08 10:25:09,462 INFO 17328 [egg:core] dump config after load, 5ms
+2022-02-08 10:25:09,465 INFO 17328 [egg-mongoose] starting...
+2022-02-08 10:25:05,623 INFO 11796 [egg:logger] init all loggers with options: {"dir":"D:\\workspace\\webstorm\\library_management\\server\\logs\\library","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"library-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2022-02-08 10:25:05,668 INFO 11796 [egg-multipart] stream mode enable
+2022-02-08 10:25:08,368 INFO 11796 [egg-mongoose] connecting mongodb://127.0.0.1:27017/book
+2022-02-08 10:25:09,394 INFO 11796 [egg-static] starting static serve /public/ -> D:\workspace\webstorm\library_management\server\app\public
+2022-02-08 10:25:09,405 INFO 11796 [egg-security] use methodnoallow middleware
+2022-02-08 10:25:09,413 INFO 11796 [egg-security] use noopen middleware
+2022-02-08 10:25:09,421 INFO 11796 [egg-security] use nosniff middleware
+2022-02-08 10:25:09,429 INFO 11796 [egg-security] use xssProtection middleware
+2022-02-08 10:25:09,437 INFO 11796 [egg-security] use xframe middleware
+2022-02-08 10:25:09,445 INFO 11796 [egg-security] use dta middleware
+2022-02-08 10:25:09,445 INFO 11796 [egg-security] compose 6 middlewares into one security middleware
+2022-02-08 10:25:09,461 INFO 11796 [egg:core] dump config after load, 6ms
+2022-02-08 10:25:09,464 INFO 11796 [egg-mongoose] starting...
+2022-02-08 10:26:24,553 INFO 21624 [egg:logger] init all loggers with options: {"dir":"D:\\workspace\\webstorm\\library_management\\server\\logs\\library","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"library-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2022-02-08 10:26:24,578 INFO 21624 [egg-multipart] stream mode enable
+2022-02-08 10:26:24,805 INFO 21624 [egg-mongoose] connecting mongodb://127.0.0.1:27017/book
+2022-02-08 10:26:24,907 INFO 21624 [egg-static] starting static serve /public/ -> D:\workspace\webstorm\library_management\server\app\public
+2022-02-08 10:26:24,909 INFO 21624 [egg-security] use methodnoallow middleware
+2022-02-08 10:26:24,910 INFO 21624 [egg-security] use noopen middleware
+2022-02-08 10:26:24,910 INFO 21624 [egg-security] use nosniff middleware
+2022-02-08 10:26:24,911 INFO 21624 [egg-security] use xssProtection middleware
+2022-02-08 10:26:24,911 INFO 21624 [egg-security] use xframe middleware
+2022-02-08 10:26:24,912 INFO 21624 [egg-security] use dta middleware
+2022-02-08 10:26:24,912 INFO 21624 [egg-security] compose 6 middlewares into one security middleware
+2022-02-08 10:26:24,923 INFO 21624 [egg:core] dump config after load, 5ms
+2022-02-08 10:26:24,926 INFO 21624 [egg-mongoose] starting...
+2022-02-08 10:26:24,950 INFO 21624 [egg-mongoose] mongodb://127.0.0.1:27017/book connected successfully
+2022-02-08 10:26:24,951 INFO 21624 [egg-mongoose] instance[0] start successfully
+2022-02-08 10:26:24,954 INFO 21624 [egg-watcher:application] watcher start success
+2022-02-08 10:26:24,962 INFO 21624 [egg:core] dump config after ready, 5ms
+2022-02-08 10:27:19,679 INFO 9112 [egg:logger] init all loggers with options: {"dir":"D:\\workspace\\webstorm\\library_management\\server\\logs\\library","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"library-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2022-02-08 10:27:19,705 INFO 9112 [egg-multipart] stream mode enable
+2022-02-08 10:27:19,973 INFO 9112 [egg-mongoose] connecting mongodb://127.0.0.1:27017/book
+2022-02-08 10:27:20,132 INFO 9112 [egg-static] starting static serve /public/ -> D:\workspace\webstorm\library_management\server\app\public
+2022-02-08 10:27:20,136 INFO 9112 [egg-security] use methodnoallow middleware
+2022-02-08 10:27:20,137 INFO 9112 [egg-security] use noopen middleware
+2022-02-08 10:27:20,139 INFO 9112 [egg-security] use nosniff middleware
+2022-02-08 10:27:20,140 INFO 9112 [egg-security] use xssProtection middleware
+2022-02-08 10:27:20,141 INFO 9112 [egg-security] use xframe middleware
+2022-02-08 10:27:20,142 INFO 9112 [egg-security] use dta middleware
+2022-02-08 10:27:20,142 INFO 9112 [egg-security] compose 6 middlewares into one security middleware
+2022-02-08 10:27:20,165 INFO 9112 [egg:core] dump config after load, 8ms
+2022-02-08 10:27:20,170 INFO 9112 [egg-mongoose] starting...
+2022-02-08 10:27:20,208 INFO 9112 [egg-mongoose] mongodb://127.0.0.1:27017/book connected successfully
+2022-02-08 10:27:20,209 INFO 9112 [egg-mongoose] instance[0] start successfully
+2022-02-08 10:27:20,212 INFO 9112 [egg-watcher:application] watcher start success
+2022-02-08 10:27:20,224 INFO 9112 [egg:core] dump config after ready, 8ms

@@ -1,0 +1,311 @@
+{
+  "keys": "D:\\workspace\\webstorm\\library_management\\server\\config\\config.default.js",
+  "auth_cookie_name": "D:\\workspace\\webstorm\\library_management\\server\\config\\config.default.js",
+  "middleware": "D:\\workspace\\webstorm\\library_management\\server\\config\\config.default.js",
+  "mongoose": {
+    "url": "D:\\workspace\\webstorm\\library_management\\server\\config\\config.default.js",
+    "options": "D:\\workspace\\webstorm\\library_management\\server\\config\\config.default.js",
+    "loadModel": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-mongoose\\config\\config.default.js",
+    "app": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-mongoose\\config\\config.default.js",
+    "agent": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-mongoose\\config\\config.default.js"
+  },
+  "security": {
+    "csrf": {
+      "enable": "D:\\workspace\\webstorm\\library_management\\server\\config\\config.default.js",
+      "type": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "refererWhiteList": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "domainWhiteList": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-security\\config\\config.default.js",
+    "xframe": {
+      "enable": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "maxAge": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "ipExceptionList": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-security\\config\\config.default.js"
+    }
+  },
+  "onerror": {
+    "all": "D:\\workspace\\webstorm\\library_management\\server\\config\\config.default.js",
+    "errorPageUrl": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-onerror\\config\\config.default.js",
+    "templatePath": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-onerror\\config\\config.default.js"
+  },
+  "multipart": {
+    "fileSize": "D:\\workspace\\webstorm\\library_management\\server\\config\\config.default.js",
+    "mode": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "autoFields": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "allowArrayField": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "tmpdir": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "cleanSchedule": {
+      "cron": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+      "disable": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-multipart\\config\\config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-session\\config\\config.default.js",
+    "logValue": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-session\\config\\config.default.js"
+  },
+  "helper": {
+    "shtml": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-jsonp\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieDomain": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-watcher\\config\\config.default.js",
+    "eventSources": {
+      "default": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-watcher\\config\\config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-schedule\\config\\config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-schedule\\config\\config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-logrotator\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-static\\config\\config.default.js",
+    "dir": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-static\\config\\config.prod.js",
+    "maxFiles": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-static\\config\\config.default.js",
+    "maxAge": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-static\\config\\config.prod.js"
+  },
+  "view": {
+    "root": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultExtension": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultViewEngine": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-view\\config\\config.default.js",
+    "mapping": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg-view\\config\\config.default.js"
+  },
+  "env": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+  "name": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+  "cookies": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+  "maxIpsCount": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+  "maxProxyCount": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+  "pkg": {
+    "name": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+    "version": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+    "description": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+    "private": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+    "dependencies": {
+      "async-validator": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+      "axios": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+      "captchapng": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+      "egg": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+      "egg-mongoose": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+      "egg-passport": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+      "egg-scripts": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+      "egg-session": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+      "node-uuid": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+      "passport-local": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+      "uuid": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+      "gulp": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+      "gulp-jest": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+      "jest": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+      "jest-html-reporters": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+      "mockjs": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+      "moment": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "autod": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+      "autod-egg": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+      "egg-bin": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+      "egg-ci": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+      "egg-mock": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+      "eslint": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+      "eslint-config-egg": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+      "webstorm-disable-index": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js"
+    },
+    "engines": {
+      "node": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js"
+    },
+    "scripts": {
+      "start": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+      "stop": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+      "dev": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+      "debug": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+      "test": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+      "test-local": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+      "cov": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+      "lint": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+      "ci": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+      "autod": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js"
+    },
+    "ci": {
+      "version": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js"
+    },
+    "repository": {
+      "type": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+      "url": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js"
+    },
+    "author": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+    "license": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js"
+  },
+  "baseDir": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+    "textLimit": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+    "strict": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+      "depth": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js"
+    },
+    "onerror": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js"
+  },
+  "logger": {
+    "dir": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+    "env": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+    "level": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+    "allowDebugAtProd": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+    "request": {
+      "timeout": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+    "logging": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+  "serverTimeout": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+      "port": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js",
+    "responseTimeout": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js"
+  },
+  "onClientError": "D:\\workspace\\webstorm\\library_management\\server\\node_modules\\egg\\config\\config.default.js"
+}

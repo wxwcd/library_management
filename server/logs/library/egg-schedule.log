@@ -1,0 +1,27 @@
+2022-02-07 18:00:19,491 INFO 8784 [egg-schedule]: register schedule D:\workspace\webstorm\library_management\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-02-07 18:00:19,491 INFO 8784 [egg-schedule]: register schedule D:\workspace\webstorm\library_management\server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-02-07 18:00:19,491 INFO 8784 [egg-schedule]: register schedule D:\workspace\webstorm\library_management\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-02-07 18:00:19,835 INFO 18928 [Timer] D:\workspace\webstorm\library_management\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 37780167ms at 2022-02-08 04:30:00.002
+2022-02-07 18:00:19,835 INFO 18928 [Timer] D:\workspace\webstorm\library_management\server\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 21580165ms at 2022-02-08 00:00:00.000
+2022-02-07 18:00:19,836 INFO 18928 [Timer] D:\workspace\webstorm\library_management\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 21581165ms at 2022-02-08 00:00:01.001
+2022-02-07 18:11:12,226 INFO 13240 [egg-schedule]: register schedule D:\workspace\webstorm\library_management\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-02-07 18:11:12,226 INFO 13240 [egg-schedule]: register schedule D:\workspace\webstorm\library_management\server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-02-07 18:11:12,226 INFO 13240 [egg-schedule]: register schedule D:\workspace\webstorm\library_management\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-02-07 18:11:16,687 INFO 1640 [Timer] D:\workspace\webstorm\library_management\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 37123315ms at 2022-02-08 04:30:00.002
+2022-02-07 18:11:16,687 INFO 1640 [Timer] D:\workspace\webstorm\library_management\server\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 20923313ms at 2022-02-08 00:00:00.000
+2022-02-07 18:11:16,687 INFO 1640 [Timer] D:\workspace\webstorm\library_management\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 20924313ms at 2022-02-08 00:00:01.000
+2022-02-08 10:25:05,070 INFO 17328 [egg-schedule]: register schedule D:\workspace\webstorm\library_management\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-02-08 10:25:05,070 INFO 17328 [egg-schedule]: register schedule D:\workspace\webstorm\library_management\server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-02-08 10:25:05,070 INFO 17328 [egg-schedule]: register schedule D:\workspace\webstorm\library_management\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-02-08 10:25:05,667 INFO 11796 [egg-schedule]: register schedule D:\workspace\webstorm\library_management\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-02-08 10:25:05,667 INFO 11796 [egg-schedule]: register schedule D:\workspace\webstorm\library_management\server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-02-08 10:25:05,667 INFO 11796 [egg-schedule]: register schedule D:\workspace\webstorm\library_management\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-02-08 10:26:24,578 INFO 21624 [egg-schedule]: register schedule D:\workspace\webstorm\library_management\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-02-08 10:26:24,578 INFO 21624 [egg-schedule]: register schedule D:\workspace\webstorm\library_management\server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-02-08 10:26:24,578 INFO 21624 [egg-schedule]: register schedule D:\workspace\webstorm\library_management\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-02-08 10:26:24,973 INFO 3252 [Timer] D:\workspace\webstorm\library_management\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 65015031ms at 2022-02-09 04:30:00.004
+2022-02-08 10:26:24,973 INFO 3252 [Timer] D:\workspace\webstorm\library_management\server\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 48815027ms at 2022-02-09 00:00:00.000
+2022-02-08 10:26:24,974 INFO 3252 [Timer] D:\workspace\webstorm\library_management\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 48816027ms at 2022-02-09 00:00:01.001
+2022-02-08 10:27:19,705 INFO 9112 [egg-schedule]: register schedule D:\workspace\webstorm\library_management\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-02-08 10:27:19,705 INFO 9112 [egg-schedule]: register schedule D:\workspace\webstorm\library_management\server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-02-08 10:27:19,705 INFO 9112 [egg-schedule]: register schedule D:\workspace\webstorm\library_management\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
