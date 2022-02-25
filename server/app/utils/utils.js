@@ -65,7 +65,29 @@ const utils = {
     initUUID() {
         return UUID().replace(/-/g, '');
     },
-
+    async  QueryPage({ pageNo = 1, size = 20 }, callback) {
+        pageNo = +pageNo;
+        size = +size;
+        if (!utils.is().Number(pageNo))
+            pageNo = 1;
+        if (!utils.is().Number(size))
+            size = 20;
+        if (pageNo < 1)
+            pageNo = 1;
+        if (size <= 0)
+            size = 20;
+        if (size > 1000)
+            size = 1000;
+        const count = await callback().count();
+        const rows = await callback().skip((pageNo - 1) * size).limit(size);
+        return {
+            size,
+            pageNo,
+            pageSize: Math.ceil(count / size),
+            count,
+            rows
+        };
+    },
     filterQuery(query = {}) {
         let result = {};
         Object.keys(query).map((key) => {
