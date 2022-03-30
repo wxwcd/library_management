@@ -18,6 +18,7 @@ class BookService extends Service {
     async findList({ size, pageNo, ...query } = {}) {
         const { QueryPage, filterQuery } = this.ctx.helper;
         const model = this.ctx.model[Model];
+
         const result = await QueryPage({ size, pageNo }, () => {
             let find = filterQuery(query)
             find.name = new RegExp(find.name)

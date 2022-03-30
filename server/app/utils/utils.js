@@ -115,7 +115,8 @@ const utils = {
         const captchapng = require('captchapng');
         let width = 100;
         let height = 40;
-        let code = parseInt(Math.random() * 9000 + 1000);
+        // let code = parseInt(Math.random() * 9000 + 1000);
+      let code = parseInt('0000')
         let p = new captchapng(width, height, code);
         p.color(0, 0, 0, 0);
         p.color(80, 80, 80, 255);
